@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aluminium Windows & Doors</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* Hero background */
+    .hero {
+      background: url('4.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      padding: 30px;
+      animation: slideUp 1.5s ease-out;
+    }
+
+    .hero-content h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero-content p {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .contact {
+      background-color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeInUp 2s ease-out;
+    }
+
+    .contact h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      font-size: 16px;
+      margin: 6px 0;
+    }
+
+    .qr img {
+      margin-top: 20px;
+      width: 100px;
+    }
+
+    .gallery {
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .gallery h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .gallery img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.4s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<div class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Aluminium Windows & Doors</h1>
+    <p>U.P.V.C Door Window</p>
+    <p>Glass Frameless Door</p>
+    <p>Doha, Qatar</p>
+ <h2>Contact Us</h2>
+  <p><strong>Mohammed Shahed +974 55914461</strong></p>
+  <p><strong>Mohammed Tanjil +974 50873763</strong></p>
+</div>
+</div>
+<!-- IMAGE GALLERY SECTION -->
+<div class="gallery">
+  <img src="1.jpg" alt="Photo 1">
+  <img src="2.jpg" alt="Photo 2">
+  <img src="3.jpg" alt="Photo 3">
+  <img src="4.jpg" alt="Photo 4">
+  <img src="5.jpg" alt="Photo 5">
+  <img src="6.jpg" alt="Photo 6">
+  <img src="7.jpg" alt="Photo 7">
+  <img src="8.jpg" alt="Photo 8">
+  <img src="9.jpg" alt="Photo 9">
+</div>
+
+<!-- CONTACT SECTION -->
+<div class="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Mohammed Shahed</strong></p>
+  <p><strong>Mohammed Tanjil</strong></p>
+  <p>📞 +974 55914461</p>
+  <p>📞 +974 50873763</p>
+  <p>✉️ shahedmd70506080@gmail.com</p>
+  <div class="qr">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=shahedmd70506080@gmail.com&size=100x100" alt="QR Code">
+  </div>
+</div>
+
+</body>
+</html>
